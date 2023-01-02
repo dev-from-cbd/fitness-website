@@ -105,6 +105,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .header {
+    padding: 2rem;
+  }
+}
+
 @media (max-width: 450px) {
   html {
     font-size: 55%;
