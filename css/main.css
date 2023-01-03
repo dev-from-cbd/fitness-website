@@ -109,6 +109,13 @@ body {
   .header {
     padding: 2rem;
   }
+
+  .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+  }
 }
 
 @media (max-width: 450px) {
