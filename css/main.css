@@ -115,7 +115,11 @@ body {
     top: 99%;
     left: 0;
     right: 0;
-    background: darkgray
+    background: darkgray;
+  }
+
+  a .navbar {
+    display: block;
   }
 }
 
