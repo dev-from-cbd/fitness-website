@@ -118,7 +118,7 @@ body {
     background: darkgray;
   }
 
-  a .navbar {
+  .navbar a {
     display: block;
   }
 }
