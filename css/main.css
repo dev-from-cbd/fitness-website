@@ -4,49 +4,35 @@
   font-family: "Nunito", sans-serif;
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
   text-decoration: none;
   outline: none;
   border: none;
   text-transform: capitalize;
-  transition: all 0.2s linear;
-}
 
-/*
-$red: #ff0000;
-$black: #000;
-$white: #fff;
-$light-white: #aaa;
-$light-bg: #111;
-*/
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
   overflow-x: hidden;
-
-  /*
-  &::-webkit-scrollbar {
-    width: 1rem;
-  }
-  &::-webkit-scrollbar-track {
-    background: black;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: red;
-  }
-  */
 }
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
   width: 1rem;
 }
-::-webkit-scrollbar-track {
+
+html::-webkit-scrollbar-track {
   background: black;
 }
 
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
   background: red;
 }
 
@@ -108,6 +94,10 @@ body {
 @media (max-width: 768px) {
   #menu-btn {
     display: inline-block;
+  }
+
+  .fa-times {
+    transform: rotate(180deg);
   }
 
   .header {
