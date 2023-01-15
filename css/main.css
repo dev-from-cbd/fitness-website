@@ -114,7 +114,6 @@ section {
 }
 
 .logo span {
-  /* color: red; */
   color: green;
 }
 
@@ -159,13 +158,20 @@ section {
     padding: 2rem;
   }
 
-  .navbar {
+  .header .navbar {
     position: absolute;
     top: 99%;
     left: 0;
     right: 0;
-    background: darkgray;
+    background: #000;
+
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
   .navbar a {
