@@ -143,6 +143,10 @@ section {
   .header {
     padding: 0 2rem;
   }
+
+  section {
+    padding: 5rem 9%;
+  }
 }
 
 @media (max-width: 768px) {
