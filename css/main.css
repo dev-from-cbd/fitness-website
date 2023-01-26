@@ -135,6 +135,10 @@ section {
   display: none;
 }
 
+.home {
+  padding: 0;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
