@@ -140,6 +140,15 @@ section {
   margin-top: 6.5rem;
 }
 
+/*
+.home .slide {
+  min-height: 70vh;
+*/
+
+.slide {
+  min-height: 70vh;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
