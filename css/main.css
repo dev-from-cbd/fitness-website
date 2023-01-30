@@ -143,6 +143,8 @@ section {
 .home .slide {
   min-height: 70vh;
   background-size: cover;
+  background-position: cover;
+  padding: 2rem 9%;
 }
 /*
 .slide {
