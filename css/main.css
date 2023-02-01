@@ -150,12 +150,18 @@ section {
 }
 
 .home .slide .content {
-  width: 60px;
+  width: 60rem;
 }
 
 .home .slide .content span {
   font-size: 2rem;
   color: red;
+  display: block;
+}
+
+.home .slide .content h3 {
+  font-size: 5rem;
+  color: white;
 }
 
 @media (max-width: 991px) {
